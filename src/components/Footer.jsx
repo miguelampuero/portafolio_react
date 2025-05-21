@@ -9,12 +9,12 @@ export const Footer = () => {
         &copy; {new Date().getFullYear()} © 2025 Miguel | Todos los derechos reservados.
 Desarrollado con 💻 por Miguel Ampuero | GitHub | Contacto.
       </p>
-      <a
-        href="#hero"
-        className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
-      >
-        <ArrowUp size={20} />
-      </a>
+    <a
+      onClick={() => document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' })}
+      className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors cursor-pointer"
+    >
+      <ArrowUp size={20} />
+    </a>
     </footer>
   );
 };
