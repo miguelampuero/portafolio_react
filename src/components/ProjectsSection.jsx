@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "🗃️ Sistema de Inventario",
+    description: "Un sistema de inventario moderno para gestionar entradas, salidas y niveles de stock de forma rápida y sencilla",
     image: `${import.meta.env.BASE_URL}projects/project1.png`,
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["HTML", "CSS", "JavaScript", "MySQL", "Bootstrap"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/miguelampuero?tab=repositories",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "🏥 Historia Clinica",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Sistema electrónico para gestionar y consultar historias clínicas de pacientes de manera segura y eficiente.",
     image: `${import.meta.env.BASE_URL}projects/project2.png`,
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Java", "JSP", "GlassFish", "MySQL", "Servlets", "MVC"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/miguelampuero?tab=repositories",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "🧪 Prototipo: Yogurt Artesanal Misti",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Prototipo de una plataforma de comercio electrónico enfocada en la venta de yogurt artesanal. Incluye catálogo de productos, carrito de compras, autenticación de usuarios y procesamiento de pagos.",
     image: `${import.meta.env.BASE_URL}projects/project3.png`,
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Figma", "User research", "UI/UX", "Wireframes"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://www.figma.com/design/kxghspvSJo355PKb6HsfsY/Yogurt-Artesanal-del-Misti---media-y-alta-fidelidad?node-id=0-1&p=f",
   },
 ];
 
@@ -77,13 +77,13 @@ Aquí les presento algunos de mis proyectos recientes. Cada proyecto fue elabora
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
