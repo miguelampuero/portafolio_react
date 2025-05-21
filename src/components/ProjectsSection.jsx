@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "🗃️ Sistema de Inventario",
     description: "Un sistema de inventario moderno para gestionar entradas, salidas y niveles de stock de forma rápida y sencilla",
-    image: "/projects/project1.png",
+    image: "/portafolio_react/projects/project1.png",
     tags: ["HTML", "CSS", "JavaScript", "MySQL", "Bootstrap"],
     demoUrl: "#",
     githubUrl: "https://github.com/miguelampuero?tab=repositories",
@@ -15,7 +15,7 @@ const projects = [
     title: "🏥 Historia Clinica",
     description:
       "Sistema electrónico para gestionar y consultar historias clínicas de pacientes de manera segura y eficiente.",
-    image: "/projects/project2.png",
+    image: "/portafolio_react/projects/project2.png",
     tags: ["Java", "JSP", "GlassFish", "MySQL", "Servlets", "MVC"],
     demoUrl: "#",
     githubUrl: "https://github.com/miguelampuero?tab=repositories",
@@ -25,7 +25,7 @@ const projects = [
     title: "🧪 Prototipo: Yogurt Artesanal Misti",
     description:
       "Prototipo de una plataforma de comercio electrónico enfocada en la venta de yogurt artesanal. Incluye catálogo de productos, carrito de compras, autenticación de usuarios y procesamiento de pagos.",
-    image: "/projects/project3.png",
+    image: "/portafolio_react/projects/project3.png",
     tags: ["Figma", "User research", "UI/UX", "Wireframes"],
     demoUrl: "#",
     githubUrl: "https://www.figma.com/design/kxghspvSJo355PKb6HsfsY/Yogurt-Artesanal-del-Misti---media-y-alta-fidelidad?node-id=0-1&p=f",
