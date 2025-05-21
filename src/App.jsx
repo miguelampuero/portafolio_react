@@ -16,7 +16,7 @@ function App() {
       <HashRouter>
         <LocationLogger />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </HashRouter>
