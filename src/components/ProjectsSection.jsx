@@ -5,6 +5,9 @@ const projects = [
     id: 1,
     title: "🗃️ Sistema de Inventario",
     description: "Un sistema de inventario moderno para gestionar entradas, salidas y niveles de stock de forma rápida y sencilla",
+    // desarrollo
+    // image: "/projects/project1.png",
+    // produccion
     image: "/portafolio_react/projects/project1.png",
     tags: ["HTML", "CSS", "JavaScript", "MySQL", "Bootstrap"],
     demoUrl: "#",
